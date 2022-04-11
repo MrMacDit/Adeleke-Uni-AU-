@@ -1,0 +1,163 @@
+/* navbars */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+/* headers */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* regular texts */
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap');
+
+HTML, body {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+p {
+    font-family: 'Gentium Basic' serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bebas Neue';
+}
+
+/* NAVBAR related */
+
+nav{
+    font-family: 'Merriweather';
+    background: #002147;
+    color: #B2B2B2;
+    padding-left: 0px;
+}
+
+/* affecting the Adeleke University ICON */
+nav a{
+    margin-left: -7px;
+    opacity: .6;
+}
+
+/* affecting the H5 that displays the ADELEKE UNIVERSITY display */
+nav h5{
+    margin-left: -10px;
+    text-align: center;
+    opacity: .8;
+    
+}
+
+.navbar{
+    padding: 10px;
+    font-family: 'Bebas Neue' cursive;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.navbar-nav a{
+    text-align: center;
+}
+
+
+/* text related */
+h1, h2, h3, h4, h5, h6, p{
+    text-align: justify;
+}
+
+/* carousel */
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
+
+.carousel-item h3{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Merriweather';
+}
+
+/* .carousel-item h3 a{
+    padding: 20px;
+    margin: 100px;
+} */
+
+.heading{
+    padding: 20px;
+    background: rgba(89.41%, 73.73%, 24.71%);
+}
+
+
+/* ADMISSION PAGE */
+.admission{
+    background-color: rgba(228, 187, 63, 0.973);
+    color: white;
+    padding: 7px;
+}
+.admission p{
+    font-size: 25px;
+}
+
+/* footer */
+
+footer{
+    padding-top: 15px;
+    margin-bottom: 5px;
+    background-color: #002147;
+    color: #B2B2B2;
+}
+
+/* HR design */
+hr {
+    background: #b2b2b2d2;
+}
+
+/* NOTICE Edit */
+.notice{
+    background: rgba(128, 128, 128, .1);
+}
+/* Hr for the Notice in the HomePage */
+hr.notices{
+    padding-top: 0;
+    margin-top: -6px;
+}
+/* NOTICE affecting the H3 */
+h3.notices{
+    text-align: center;
+}
+
+/* Notice Section attached to the Newsfeed */
+.notice a{
+    color: black;
+}
+
+
+/* students portal */
+.student{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.student p{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: sienna;
+    margin-left: 40px;
+}
+
+.student p::before{
+    content: "";
+}
+
+.student .portal li{
+    margin-top: 15px;
+}
+
+
+/* BUTTON COLOR */
+.btn-secondary{
+    background: #002147;
+}
+.btn-xl{
+    color: #B2B2B2;
+}
+
+
+
+
+
