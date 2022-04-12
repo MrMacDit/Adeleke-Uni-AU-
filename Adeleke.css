@@ -256,7 +256,7 @@ table, tr, th, td{
 
 /* Fixed Images in Department */
 #fixedBG{
-    background-image: url(department/Microbiology.jpg);
+    background-image: url(Microbiology.jpg);
     background-attachment: fixed;
     background-size: cover;
     min-height: 200px;
